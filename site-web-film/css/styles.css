@@ -1,0 +1,298 @@
+/*Guillaume Moisan , Samy Brown Sakr
+  03/10/2016*/
+
+
+body
+{
+	background-image: url("../images/red-black.jpg");
+	background-color: red;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+header
+{
+	color: red;
+}
+#page /* division qui englobe toute la page */
+{
+	width: 1000px;
+	margin: auto;
+}
+#page > header /* le style s'applique au premier "header" de la page */
+{
+	/*border-bottom: 5px outset #860217;
+	border-left: 5px inset #860217;
+	border-right: 5px outset #860217;
+	border-top: 5px inset #860217;*/
+	background-color: #000000;
+	height: 250px;
+	border-radius: 6px 6px 0px 0px;
+}
+#page > header h1 /* le style s'applique au titre de niveau 1 du premier "header" de la page */
+{
+	color:white;
+	margin:0;
+}
+nav
+{
+	background-color: #ab0000;
+	height: 74px; /*augmente la heuteur du nav*/
+	text-align:center; /*met la liste au centre*/
+	border: 2px solid black;
+	border-radius: 0px 0px 30px 30px;
+}
+/*mettre la lliste en horizontal*/
+nav li
+{
+	display: inline-block;
+	padding-left: 10px; /*espace d'avantage les titres principaux*/
+	
+}
+nav ul
+{
+	margin:0; /*enlève les marges*/
+	padding:0; /*enlève le décalage*/
+	padding-top: 9px; /*Permet de rabaiser le titre*/
+	color: black;
+	
+}
+nav a
+{
+	display: inline-block; /*rend les marges possible*/
+	padding: 10px; /* marge ajouter*/
+	color:#0C090A;
+	text-decoration: none; /* Enlève le surlignement*/
+	font-weight: bold; /*rend le texte en gras*/
+	border: 3px solid #000000; /* Rajoute une bordure -Nb de px; - Effet de la bordure; couleur de la bordure*/
+	border-radius: 9px 9px 28px 28px;
+	background-color: #DF0000;
+	box-shadow: 10px 10px 10px black;
+	
+}
+nav a:hover /*modifie les effets des liens*/
+{
+	background-color: silver; /*change la couleur du lien*/
+}
+
+#contenu
+{
+	text-align: center;
+	min-height: 400px; /* hauteur minimale; sinon la hauteur s'ajustera au contenu */
+	background-color: rgba(255,255,255,0.8);
+	margin-top: 5px;
+	border: 2px solid #000000;
+	border-radius: 9px 9px 28px 28px;
+	box-shadow: 10px 10px 10px black;
+	padding: 10px;
+}
+.contenu-a, #realisateur-bio, #realisateur-filmo1, #realisateur-filmo2, #realisateur-filmo3, #realisateur-filmo4, #index1
+{
+	text-align:left;
+	min-height: 320px; /* hauteur minimale; sinon la hauteur s'ajustera au contenu */
+	background-color: rgba(255,255,255,0.8);
+	margin-top: 5px;
+	border: 2px solid #000000;
+	border-radius: 9px 9px 28px 28px;
+	box-shadow: 10px 10px 10px black;
+	padding: 10px;
+	overflow: auto;
+	text-align:justify;
+	text-justify: inter-word;
+}
+div
+{
+	display:block;
+}
+aside
+{
+	height:350px;
+	width:250px;
+	float:left;
+}
+footer
+{
+	background-color: black;
+	height: 60px;
+	border-radius: 30px;
+}
+footer li
+{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 35px
+	
+	
+}
+footer ul
+{
+	padding-top: 20px;
+	text-align: center;
+}
+footer a
+{
+	color: white;
+	
+}
+footer a:hover
+{
+	color:#D4A017;
+}
+.retour-tim2:hover 
+{
+	color:#D4A017;
+}
+.char
+{
+	border-radius: 30px;
+	float:right;
+}
+.face
+{
+	float:center;
+}
+.logo
+{
+	border-radius: 30px;
+	float:left;
+}
+.acteurs
+{
+	text-align: left;
+}
+.ryan, .morena, .ed, .gina, .stefan, .brianna, .tj, .source-lien, .list-acteurs-p
+{
+	color:black;
+	text-decoration:none;
+}
+#retour-tim > a
+{
+	color:white;
+	text-decoration:none;
+}
+
+figure
+{
+	display:inline-block;
+}
+.ryan-g, .morena-g,.edward-g, .gina-carano-g, .brianna-g, .tj-g, .source-g, .tim-g
+{
+	float:right;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+.tim-g
+{
+	padding-top: 6px;
+}
+.ryan:hover, .morena:hover, .ed:hover, .gina:hover, .stefan:hover, .brianna:hover, .tj:hover, .source-lien:hover
+{
+	color:#AB0000;
+}
+#source-titre, #retour-tim, #filmo-titre, .realisateur-titre, .film-title
+{
+	text-align:center;
+}
+.source-g
+{
+	padding-top: 30px;
+	padding-right: 30px;
+}
+.list-acteurs
+{
+	text-align:left;
+	width:250px;
+	margin-left:230px;
+	font-size: 125%;
+}
+.list-acteurs-p
+{
+	text-align:left;
+}
+
+.#hideaway
+{
+	margin-top:65px;
+}
+#realisateur-filmo
+{
+	margin-top:10px;
+	background-color: black;
+	height: 74px; 
+	text-align:center; 
+	border: 2px solid black;
+	border-radius: 30px 30px 30px 30px;
+}
+#filmo-titre
+{
+	color:white;
+}
+Section h1, h2
+{
+	text-align:center; 	
+}
+Section div
+{
+	border: 3px outset black;
+	width: 831px;
+	margin: auto;	
+}
+Section p
+{
+	margin: 30px;
+	font-size:111%;
+	text-align:justify;
+}
+Section ul
+{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.gras
+{
+	font-weight:bold;
+	font-size:115%;
+}
+.nouvelle-texte
+{
+	display: inline-block;
+	padding-left: 10px; /*espace d'avantage les titres principaux*/
+	max-width: 600px ;
+	vertical-align: top ;	
+	border:none;
+}
+.date
+{
+	font-size : 75%;
+}
+article div
+{
+	padding: 10px;
+}
+/*Le style par article*/
+.espace
+{
+	margin-bottom:30px;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 20px;
+}
+
+ .autres-sites /*Possitionne l'image à droite de la liste*/
+ {
+	 float: right;
+	 padding-right:70px;	 
+	 padding-left: 15px;
+ }
+ .nouvelle-image
+{
+	display: inline-block;
+	padding-left: 10px; /*espace d'avantage les titres principaux*/
+	padding-top: 10px;
+	max-width: 200px;
+	vertical-align: middle;
+	border:none;
+	text-align:center;
+}
+#galerie
+{
+	float:left;
+}	
