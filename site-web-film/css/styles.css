@@ -150,10 +150,14 @@ footer a:hover
 {
 	float:center;
 }
-.logo
+.banniere
 {
 	border-radius: 30px;
 	float:left;
+}
+.logo
+{
+	display:none;
 }
 .acteurs
 {
@@ -170,9 +174,13 @@ footer a:hover
 	text-decoration:none;
 }
 
-figure
+figure, #produits
 {
 	display:inline-block;
+}
+#produits
+{
+	padding-top:none;
 }
 .ryan-g, .morena-g,.edward-g, .gina-carano-g, .brianna-g, .tj-g, .source-g, .tim-g
 {
